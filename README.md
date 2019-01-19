@@ -1,10 +1,12 @@
 
 # C++ Sudoku
 
-Please refer to Peter Norvig's article http://norvig.com/sudoku.html.
-I created this software as an excercise to learn C++ where I didn't 
-have to think about software design and could focus on translating
-Peter's beautiful python code into C++ in the best way possible.
+Please refer to Peter Norvig's article http://norvig.com/sudoku.html
+for a great discussion of Sudoku, constraint propogation, and depth-
+first search. I created this software as an excercise to learn C++ 
+where I didn't have to think about software design and could focus
+on translating Peter's beautiful python code into C++ in the best
+way possible. Thanks Peter for sharing!
 
 Enjoy!
 
@@ -34,6 +36,7 @@ Solved 1 of 1 hard1 puzzles in 31.952 seconds [avg: 31.952 sec (0.031 Hz), max: 
 Solved 0 of 1 impossible1 puzzles in 273.546 seconds [avg: 273.546 sec (0.004 Hz), max: 273.546 sec]
 ```
 
-### Profile/Improve
+### Improve
 
-The implementation has not been profiled so there is likely room for performance improvements.
+The implementation has not been profiled so there is (always) room for
+performance improvement. Give it a try and let me know what you find!
