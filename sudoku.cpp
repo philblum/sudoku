@@ -375,7 +375,7 @@ namespace sudoku {
       std::cout << std::endl;
     }
 
-    string Sudoku::random_puzzle(unsigned n)
+    string Sudoku::random_puzzle(unsigned int n)
     {
       /* Make a random puzzle with n or more assignments. Restart on contradictions.
        * Note the resulting puzzle is not guaranteed to be solvable, but empirically
@@ -400,7 +400,7 @@ namespace sudoku {
         if(not assign(values, s, d))
           break; // fail; we can't assign d to square s
 
-        int num_sq = 0;
+        unsigned int num_sq = 0;
         std::unordered_set<char> ds;
         for(const auto s: squares)
           if(values[s].size() == 1)
